@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Assets</title></head>
+<body>
+<h1>Asset List</h1>
+<a href="/add">Add New Asset</a>
+<ul>
+{% for asset in assets %}
+    <li><a href="/asset/{{ asset[0] }}">{{ asset[1] }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>

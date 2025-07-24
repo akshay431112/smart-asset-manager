@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Asset Detail</title></head>
+<body>
+<h2>{{ asset[1] }}</h2>
+<p>Owner: {{ asset[2] }}</p>
+<p>Location: {{ asset[3] }}</p>
+<img src="/static/qrcodes/{{ asset[0] }}.png" width="150"><br>
+<img src="/static/barcodes/{{ asset[0] }}.png" width="300"><br>
+<a href="/">Back</a>
+</body>
+</html>
